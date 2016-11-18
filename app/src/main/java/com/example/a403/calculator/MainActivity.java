@@ -24,9 +24,10 @@ public class MainActivity extends AppCompatActivity {
 
         number1=(EditText) findViewById(R.id.number1);
         number2=(EditText) findViewById(R.id.number2);
+
         plus = (Button) findViewById(R.id.plus);
         minus = (Button) findViewById(R.id.minus);
-        muliply = (Button) findViewById(R.id.minus);
+        muliply = (Button) findViewById(R.id.muliply);
         division = (Button) findViewById(R.id.division);
         remainder = (Button) findViewById(R.id.remainder);
 
