@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"
         android:inputType="number"
         android:ems="10"
-        android:id="@+id/editText2"
+        android:id="@+id/number1"
         android:layout_below="@+id/textView"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -27,8 +27,28 @@
         android:inputType="number"
         android:ems="10"
         android:layout_marginTop="29dp"
-        android:id="@+id/editText3"
-        android:layout_below="@+id/editText2"
+        android:id="@+id/number2"
+        android:layout_below="@+id/number1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="PLUS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:id="@+id/plus"
+        android:layout_below="@+id/number2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:elevation="10dp" />
+
+    <Button
+        android:text="minus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/minus"
+        android:layout_below="@+id/plus"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -36,51 +56,41 @@
         android:text="muliply"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button2"
-        android:layout_alignLeft="@+id/button2"
-        android:layout_alignStart="@+id/button2"
-        android:layout_marginTop="25dp"
-        android:id="@+id/button3" />
+        android:layout_marginTop="12dp"
+        android:id="@+id/muliply"
+        android:layout_below="@+id/minus"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:text="division"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button3"
-        android:layout_alignLeft="@+id/button3"
-        android:layout_alignStart="@+id/button3"
-        android:layout_marginTop="24dp"
-        android:id="@+id/button4" />
-
-    <Button
-        android:text="minus"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/button2"
-        android:layout_below="@+id/button"
-        android:layout_alignLeft="@+id/button"
-        android:layout_alignStart="@+id/button"
-        android:layout_marginTop="48dp" />
+        android:layout_marginTop="14dp"
+        android:id="@+id/division"
+        android:layout_below="@+id/muliply"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="number"
         android:ems="10"
-        android:layout_below="@+id/button4"
-        android:layout_alignLeft="@+id/button4"
-        android:layout_alignStart="@+id/button4"
-        android:layout_marginTop="20dp"
-        android:id="@+id/editText4" />
+        android:id="@+id/result"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:elevation="1dp" />
 
     <Button
-        android:text="PLUS"
+        android:text="Remainder"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="21dp"
-        android:id="@+id/button"
-        android:layout_below="@+id/editText3"
+        android:layout_below="@+id/division"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp"
+        android:id="@+id/remainder" />
 
 </RelativeLayout>
